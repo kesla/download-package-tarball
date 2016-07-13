@@ -1,6 +1,6 @@
 {
   "name": "download-package-tarball",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Download a node package as a tarball, for example from github or npm",
   "main": "dist/index.js",
   "scripts": {
