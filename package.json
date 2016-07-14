@@ -37,9 +37,9 @@
     "download-tarball": "^1.0.0",
     "mkdirp-then": "^1.2.0",
     "npm-package-arg": "^4.2.0",
-    "read-json": "^1.0.3",
     "rimraf-then": "^1.0.0",
     "then-fs": "^2.0.0",
+    "then-read-json": "^1.0.1",
     "tmp": "0.0.28"
   }
 }
