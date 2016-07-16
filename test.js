@@ -8,8 +8,8 @@ import httpTestServer from 'http-test-server';
 
 import download from './lib';
 
-test('downloadPackageTarball()', function * (t) {
-  const {baseUrl: url, shutdown} = yield httpTestServer((req, res) => {
+test('downloadPackageTarball()', async t => {
+  const {baseUrl: url, shutdown} = await httpTestServer((req, res) => {
     t.match(req.headers, {custom: 'beep-boop'});
 
     const packStream = pack();
@@ -23,7 +23,7 @@ test('downloadPackageTarball()', function * (t) {
 
   const {name: tmpDir} = tmp.dirSync();
 
-  const d = download({
+  await download({
     url,
     gotOpts: {
       headers: {
@@ -33,11 +33,10 @@ test('downloadPackageTarball()', function * (t) {
     dir: tmpDir
   });
 
-  t.truthy(d.then, 'answer is promise');
-
-  yield d;
-  const actualContent = yield fs.readFile(join(tmpDir, '@scope/package-name/test.txt'), 'utf8');
+  const actualContent = await fs.readFile(join(tmpDir, '@scope/package-name/test.txt'), 'utf8');
   const expectedContent = 'this is a test file';
+
   t.is(actualContent, expectedContent);
-  yield shutdown();
+
+  await shutdown();
 });

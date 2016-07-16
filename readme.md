@@ -67,19 +67,20 @@ npm test
 
 ## Dependencies
 
-- [co](https://github.com/tj/co): generator async control flow goodness
 - [download-tarball](https://github.com/kesla/download-tarball): Download a tarball (optionally gzipped) to a folder &amp; extract it in the process. Uses the wonderful &amp; super quick tar-fs &amp; gunzip-maybe libraries.
 - [mkdirp-then](https://github.com/fs-utils/mkdirp-then): mkdirp as promised
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [rimraf-then](https://github.com/fs-utils/rimraf-then): rimraf as promised
 - [then-fs](https://github.com/then/fs): promised FS
-- [then-read-json](): Read JSON file using promises
+- [then-read-json](https://github.com/tunnckocore/then-read-json): Read JSON file using promises
 - [tmp](https://github.com/raszi/node-tmp): Temporary file and directory creator
 
 ## Dev Dependencies
 
 - [babel-cli](https://github.com/babel/babel/tree/master/packages): Babel command line.
 - [babel-core](https://github.com/babel/babel/tree/master/packages): Babel compiler core.
+- [babel-plugin-syntax-async-functions](https://github.com/babel/babel/tree/master/packages): Allow parsing of async functions
+- [babel-plugin-transform-async-to-generator](https://github.com/babel/babel/tree/master/packages): Turn async functions into ES2015 generators
 - [babel-preset-es2015-node4](https://github.com/jbach/babel-preset-es2015-node4): Babel preset to make node@4 ES2015 compatible.
 - [babel-tape-runner](https://github.com/wavded/babel-tape-runner): Babel + Tape for running your ES Next tests
 - [http-test-server](https://github.com/kesla/test-http-server): Create a simple http server for tests
