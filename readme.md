@@ -72,8 +72,8 @@ npm test
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [rimraf-then](https://github.com/fs-utils/rimraf-then): rimraf as promised
 - [then-fs](https://github.com/then/fs): promised FS
-- [then-read-json](https://github.com/tunnckocore/then-read-json): Read JSON file using promises
-- [tmp](https://github.com/raszi/node-tmp): Temporary file and directory creator
+- [then-read-json](): Read JSON file using promises
+- [then-tmp](https://github.com/kesla/then-tmp): Promised version of the node.js [tmp](https://www.npmjs.com/package/tmp) module.
 
 ## Dev Dependencies
 

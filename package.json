@@ -40,7 +40,7 @@
     "rimraf-then": "^1.0.0",
     "then-fs": "^2.0.0",
     "then-read-json": "github:kesla/then-read-json",
-    "tmp": "0.0.28"
+    "then-tmp": "^1.0.0"
   },
   "xo": {
     "esnext": true,

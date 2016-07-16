@@ -1,7 +1,7 @@
 import {join} from 'path';
 
 import {pack} from 'tar-stream';
-import tmp from 'tmp';
+import tmp from 'then-tmp';
 import test from 'tapava';
 import fs from 'then-fs';
 import httpTestServer from 'http-test-server';
@@ -21,7 +21,7 @@ test('downloadPackageTarball()', async t => {
     packStream.pipe(res);
   });
 
-  const {name: tmpDir} = tmp.dirSync();
+  const {path: tmpDir} = await tmp.dir();
 
   await download({
     url,
