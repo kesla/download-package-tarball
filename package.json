@@ -25,6 +25,7 @@
     "babel-core": "^6.10.4",
     "babel-preset-es2015-node4": "^2.1.0",
     "babel-tape-runner": "^2.0.1",
+    "http-test-server": "^1.0.0",
     "package-json-to-readme": "^1.5.1",
     "semistandard": "^8.0.0",
     "snazzy": "^4.0.0",
