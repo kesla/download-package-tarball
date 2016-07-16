@@ -13,6 +13,8 @@ npm install download-package-tarball --save
 ## Usage
 
 ```js
+/* eslint-disable import/no-extraneous-dependencies */
+
 import download from 'download-package-tarball';
 
 download({
@@ -65,14 +67,13 @@ npm test
 
 ## Dependencies
 
-- [bluebird](https://github.com/petkaantonov/bluebird): Full featured Promises/A+ implementation with exceptionally good performance
 - [co](https://github.com/tj/co): generator async control flow goodness
 - [download-tarball](https://github.com/kesla/download-tarball): Download a tarball (optionally gzipped) to a folder &amp; extract it in the process. Uses the wonderful &amp; super quick tar-fs &amp; gunzip-maybe libraries.
 - [mkdirp-then](https://github.com/fs-utils/mkdirp-then): mkdirp as promised
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [rimraf-then](https://github.com/fs-utils/rimraf-then): rimraf as promised
 - [then-fs](https://github.com/then/fs): promised FS
-- [then-read-json](https://github.com/tunnckocore/then-read-json): Read JSON file using promises
+- [then-read-json](): Read JSON file using promises
 - [tmp](https://github.com/raszi/node-tmp): Temporary file and directory creator
 
 ## Dev Dependencies
@@ -81,11 +82,11 @@ npm test
 - [babel-core](https://github.com/babel/babel/tree/master/packages): Babel compiler core.
 - [babel-preset-es2015-node4](https://github.com/jbach/babel-preset-es2015-node4): Babel preset to make node@4 ES2015 compatible.
 - [babel-tape-runner](https://github.com/wavded/babel-tape-runner): Babel + Tape for running your ES Next tests
+- [http-test-server](https://github.com/kesla/test-http-server): Create a simple http server for tests
 - [package-json-to-readme](https://github.com/zeke/package-json-to-readme): Generate a README.md from package.json contents
-- [semistandard](https://github.com/Flet/semistandard): All the goodness of `feross/standard` with semicolons sprinkled on top.
-- [snazzy](https://github.com/feross/snazzy): Format JavaScript Standard Style as Stylish (i.e. snazzy) output
 - [tapava](https://github.com/kesla/tapava): the syntax of ava, run through tape
 - [tar-stream](https://github.com/mafintosh/tar-stream): tar-stream is a streaming tar parser and generator and nothing else. It is streams2 and operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.
+- [xo](https://github.com/sindresorhus/xo): JavaScript happiness style linter ❤️
 
 
 ## License

@@ -1,10 +1,12 @@
+import {join} from 'path';
+
 import {pack} from 'tar-stream';
 import tmp from 'tmp';
 import test from 'tapava';
-import download from './lib';
 import fs from 'then-fs';
-import {join} from 'path';
 import httpTestServer from 'http-test-server';
+
+import download from './lib';
 
 test('downloadPackageTarball()', function * (t) {
   const {baseUrl: url, shutdown} = yield httpTestServer((req, res) => {
