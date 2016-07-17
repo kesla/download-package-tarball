@@ -69,10 +69,10 @@ npm test
 
 - [download-tarball](https://github.com/kesla/download-tarball): Download a tarball (optionally gzipped) to a folder &amp; extract it in the process. Uses the wonderful &amp; super quick tar-fs &amp; gunzip-maybe libraries.
 - [mkdirp-then](https://github.com/fs-utils/mkdirp-then): mkdirp as promised
+- [mz](https://github.com/normalize/mz): modernize node.js to current ECMAScript standards
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [rimraf-then](https://github.com/fs-utils/rimraf-then): rimraf as promised
-- [then-fs](https://github.com/then/fs): promised FS
-- [then-read-json](): Read JSON file using promises
+- [then-read-json](https://github.com/tunnckocore/then-read-json): Read JSON file using promises
 - [then-tmp](https://github.com/kesla/then-tmp): Promised version of the node.js [tmp](https://www.npmjs.com/package/tmp) module.
 
 ## Dev Dependencies

@@ -3,7 +3,7 @@ import {join} from 'path';
 import {pack} from 'tar-stream';
 import tmp from 'then-tmp';
 import test from 'tapava';
-import fs from 'then-fs';
+import fs from 'mz/fs';
 import httpTestServer from 'http-test-server';
 
 import download from './lib';

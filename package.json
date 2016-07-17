@@ -36,9 +36,9 @@
   "dependencies": {
     "download-tarball": "^1.0.0",
     "mkdirp-then": "^1.2.0",
+    "mz": "^2.4.0",
     "npm-package-arg": "^4.2.0",
     "rimraf-then": "^1.0.0",
-    "then-fs": "^2.0.0",
     "then-read-json": "^1.0.3",
     "then-tmp": "^1.0.0"
   },
