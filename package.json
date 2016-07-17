@@ -39,7 +39,7 @@
     "npm-package-arg": "^4.2.0",
     "rimraf-then": "^1.0.0",
     "then-fs": "^2.0.0",
-    "then-read-json": "github:kesla/then-read-json",
+    "then-read-json": "^1.0.3",
     "then-tmp": "^1.0.0"
   },
   "xo": {
