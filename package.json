@@ -31,7 +31,7 @@
     "package-json-to-readme": "^1.5.1",
     "tapava": "^2.2.0",
     "tar-stream": "^1.5.2",
-    "xo": "^0.16.0"
+    "xo": "^0.17.0"
   },
   "dependencies": {
     "download-tarball": "^1.0.0",
