@@ -68,11 +68,11 @@ npm test
 ## Dependencies
 
 - [download-tarball](https://github.com/kesla/download-tarball): Download a tarball (optionally gzipped) to a folder &amp; extract it in the process. Uses the wonderful &amp; super quick tar-fs &amp; gunzip-maybe libraries.
+- [fs-extra](https://github.com/jprichardson/node-fs-extra): fs-extra contains methods that aren&#39;t included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.
 - [mkdirp-then](https://github.com/fs-utils/mkdirp-then): mkdirp as promised
-- [mz](https://github.com/normalize/mz): modernize node.js to current ECMAScript standards
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [rimraf-then](https://github.com/fs-utils/rimraf-then): rimraf as promised
-- [then-read-json](https://github.com/tunnckocore/then-read-json): Read JSON file using promises
+- [then-read-json](https://github.com/tunnckoCore/then-read-json): Read JSON file using promises
 - [then-tmp](https://github.com/kesla/then-tmp): Promised version of the node.js [tmp](https://www.npmjs.com/package/tmp) module.
 
 ## Dev Dependencies
@@ -85,6 +85,7 @@ npm test
 - [babel-tape-runner](https://github.com/wavded/babel-tape-runner): Babel + Tape for running your ES Next tests
 - [http-test-server](https://github.com/kesla/test-http-server): Create a simple http server for tests
 - [package-json-to-readme](https://github.com/zeke/package-json-to-readme): Generate a README.md from package.json contents
+- [shx](https://github.com/shelljs/shx): Portable Shell Commands for Node
 - [tapava](https://github.com/kesla/tapava): the syntax of ava, run through tape
 - [tar-stream](https://github.com/mafintosh/tar-stream): tar-stream is a streaming tar parser and generator and nothing else. It is streams2 and operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.
 - [xo](https://github.com/sindresorhus/xo): JavaScript happiness style linter ❤️
