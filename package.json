@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "xo && babel-tape-runner test.js",
-    "build": "shx rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
-    "watch": "shx rm -rf dist && mkdir -p dist && babel -w lib --out-dir dist",
+    "build": "shx rm -rf dist && shx mkdir -p dist && babel lib --out-dir dist",
+    "watch": "shx rm -rf dist && shx mkdir -p dist && babel -w lib --out-dir dist",
     "prepublish": "npm run build",
     "posttest": "readme package.json > readme.md"
   },
